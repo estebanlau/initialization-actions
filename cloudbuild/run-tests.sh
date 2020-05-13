@@ -99,6 +99,7 @@ run_tests() {
     --test_output=errors \
     --noshow_progress \
     --noshow_loading_progress \
+    --keep_going \
     --test_arg="--image_version=${IMAGE_VERSION}" \
     "${TESTS_TO_RUN[@]}"
 }
